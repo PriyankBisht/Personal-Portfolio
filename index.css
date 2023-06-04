@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #dddddb; */
+}
+
+/* navigation bar */
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 97vw;
+    border-radius: 42px;
+    position: relative;
+    top: 34px;
+    left: 16px;
+}
+
+.container ul li{
+    list-style: none;
+    color: white;
+}
+.navbar .right a{
+    font-family:'Ubuntu Condensed', sans-serif;
+}
+
+.priyank{
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family:  'Work Sans', sans-serif; */
+}
+.container ul li a{
+    color: white;
+}
+.left{
+    display: flex;
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+
+.right{
+    display: flex;
+    position: relative;
+    left: 900px;
+    top: 22px;
+    
+
+}
+
+.right a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.right a:hover{
+    color:#dddddb ;
+}
+
+.left li span{
+    font-size: 2.3em;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+
+/* middle section */
+
+.photo{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 45px;
+    
+
+}
+.photo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.middle{
+    display: flex;
+    position: relative;
+    top: 115px;
+    left: 470px;
+    width:50vw;
+    height: 90vh;
+    /* background-color: #dddddb; */
+}
+
+.middle .middle-content{
+    padding: 30px;
+}
+
+.hello{
+    font-size: 6em;
+    font-family:  'Work Sans', sans-serif;
+}
+.bit{
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content .lilbit{
+    width: 250px;
+    font-size: 1.1em;
+}
+.lilbit{
+    font-family:'Ubuntu Condensed', sans-serif;
+    font-size: 1.3em;
+}
+.btn{
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 1.2em;
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.middle-content .btn a{
+    font-family:'Ubuntu Condensed', sans-serif;
+}
+
+#first{
+    background-color: #bf5e5e;
+    transition-property: all;
+    transition-duration: 50ms;
+    transition-timing-function: ease-in-out;
+}
+#second{
+    background-color: rgb(96, 160, 96);
+    transition-property: all;
+    transition-duration: 50ms;
+    transition-timing-function: ease-in-out;
+}
+#third{
+    background-color: #c7c788;
+    transition-property: all;
+    transition-duration: 50ms;
+    transition-timing-function: ease-in-out;
+}
+
+#first:hover{
+    background-color: #dddddb;
+    cursor: pointer;
+}
+#second:hover{
+    background-color: #dddddb;
+    cursor: pointer;
+}
+#third:hover{
+    background-color: #dddddb;
+    cursor: pointer;
+}
+
+/* last part */
+.end{
+    display: flex;
+    z-index: 1000000;
+    background-color: #dddddb;
+}
+
+.end>div{
+    margin:50px 175px;
+
+}
+
+.contact div a{
+    color: black;
+    text-decoration: none;
+
+}
+.contact div a:hover{
+    cursor: pointer;
+}
+.end h2{
+    font-family:'Ubuntu Condensed', sans-serif;
+}
+.end .end-content{
+    font-family:'Ubuntu Condensed', sans-serif;
+    
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}

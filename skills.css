@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    /* background-color: ; */
+}
+
+h1{
+    font-size: 4em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left .left-content{
+    /* border: 2px solid white; */
+    width: 475px;
+    position: relative;
+    left: 123px;
+    top: 203px;
+}
+
+.left .left-content div{
+    font-size: 1.7em;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+.firstlogo{
+    display: flex;
+    
+}
+.lastlogo{
+    display: flex;
+}
+.logos img{
+    margin: 10px 20px;
+}
+.html{
+    height: 100px;
+    width: 100px;
+}
+.css{
+    height: 100px;
+    width: 76px;
+
+}
+.js{
+    height: 100px;
+    width: 170px;
+}
+.nodejs {
+        height: 100px;
+        width: 130px;
+        position: relative;
+        left: -34px;
+}
+.python{
+    height: 100px;
+    width: 90px;
+}
+.C{
+    height: 100px;
+    width: 90px;
+
+}
+.cpp{
+    height: 143px;
+    width: 228px;
+    position: relative;
+    top: -24px;
+    left: -39px;
+}
+/* right side */
+.photo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.right{
+    /* border: 4px solid red; */
+    background-color: rgb(96, 160, 96);
+}
+.right-container{
+    /* border: 2px solid black; */
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 110px;
+    left: 8px;
+}
+.photo{
+    position: relative;
+    top: -4px;
+    left: 175px;
+}
+.right-text{
+    font-size: 2.1em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 221px;
+    left: 4px;
+    height: 284px;
+    width: 96%;
+}
